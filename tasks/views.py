@@ -4,7 +4,11 @@ from django.contrib.auth.forms import UserCreationForm
 # Create your views here.
 
 
-def helloworld(request):
+def home(request):
+    return render(request, 'home.html')
+
+
+def signup(request):
     return render(request, 'signup.html', {
         'form': UserCreationForm
     })
