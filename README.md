@@ -1,6 +1,6 @@
 ## django-crud-by-fazt
 
-https://youtu.be/e6PkGDH4wWA?t=1267
+https://youtu.be/e6PkGDH4wWA?t=4493
 
 ### commands to learn
 
@@ -10,5 +10,6 @@ django-admin --version
 django-admin startproject MyAPPName .
 py -m venv venv
 deactivate
+source venv/Scripts/activate (bash)
 ./venv/Scripts/activate.bat
 python manage.py runserver
